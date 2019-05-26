@@ -72,7 +72,7 @@ public class CsvReader {
 
                 if(studentDetails.length > 0 )
                 {
-                    //Save the employee details in Employee object
+                    //Save the student details in student object
                     Student student = new Student(
                             Integer.parseInt(studentDetails[0]),
                             studentDetails[1],
